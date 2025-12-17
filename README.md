@@ -31,17 +31,6 @@ A minimal notes application with Auth0 authentication. Users can log in and mana
    python -m http.server 3000
    ```
 
-6. **Test the Flow**
-   - Open `http://localhost:3000`
-   - Click "Login with Auth0"
-   - Complete authentication
-   - View user profile information
-
-## Files
-
-- `index.html` - Main application with Auth0 integration
-- `README.md` - Setup instructions
-
 ## Key Features
 
 - Auth0 login/logout
