@@ -150,8 +150,8 @@
         // Configure Auth0 - Replace with your Auth0 domain and client ID
         const configureClient = async () => {
             auth0Client = await auth0.createAuth0Client({
-                domain: 'dev-pzsqrlx8rchlpg1a.us.auth0.com',
-                clientId: 'iuVarf8MVEnwZqsranKBCf7Y03o9wfB3',
+                domain: 'YOUR_AUTH0_DOMAIN',
+                clientId: 'YOUR_CLIENT_ID',
                 authorizationParams: {
                     redirect_uri: window.location.origin
                 }
