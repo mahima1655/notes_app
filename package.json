@@ -1,0 +1,13 @@
+{
+  "name": "auth0-login-demo",
+  "version": "1.0.0",
+  "description": "Minimal Auth0 login flow implementation",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
